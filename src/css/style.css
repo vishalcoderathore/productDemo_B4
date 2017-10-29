@@ -28,7 +28,10 @@ body {
   background-size: cover;
   background-position: center; }
 
-.fa {
+/*
+  Home Page
+*/
+#home-icons .fa {
   font-size: 50px; }
 
 #home-heading {
@@ -63,4 +66,22 @@ body {
 
 footer#main-footer {
   background: #000;
-  color: #fff; }
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+/*
+  About Page
+*/
+#page-header {
+  height: 250px;
+  background: url("../images/about-us.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px; }
+
+#icon-boxes .fa {
+  font-size: 50px; }

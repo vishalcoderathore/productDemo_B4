@@ -40,8 +40,14 @@ body{
     background-position: center;
 }
 
-.fa{
-  font-size:$icon-size;
+/*
+  Home Page
+*/
+
+#home-icons{
+  .fa{
+    font-size:$icon-size;
+  }
 }
 
 #home-heading{
@@ -76,10 +82,32 @@ body{
   a{
     color:#fff;
   }
-
 }
 
 footer#main-footer{
   background:#000;
   color:#fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/*
+  About Page
+*/
+
+#page-header{
+  height: 250px;
+  background: url("../images/about-us.jpeg");
+  background-position:center;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+#icon-boxes{
+  .fa{
+    font-size:$icon-size;
+  }
 }

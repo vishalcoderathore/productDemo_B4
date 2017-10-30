@@ -63,6 +63,8 @@ body {
   color: #fff; }
   #video-play a {
     color: #fff; }
+  #video-play .fa {
+    font-size: 50px; }
 
 footer#main-footer {
   background: #000;
@@ -73,12 +75,48 @@ footer#main-footer {
 */
 #page-header {
   height: 250px;
-  background: url("../images/about-us.jpeg");
+  background: url("../images/black-phone.jpeg");
   background-position: center;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;
-  padding-top: 50px; }
+  padding-top: 50px;
+  background-position: bottom; }
 
 #icon-boxes .fa {
   font-size: 50px; }
+
+/*
+  Services Page
+*/
+.sec-info {
+  text-align: center;
+  padding-top: 30px;
+  width: 600px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative; }
+
+.sec-header {
+  font-size: 40px;
+  line-height: 1.05;
+  font-weight: 500;
+  letter-spacing: 0.008em;
+  font-family: "SF Pro Display", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+
+.sec-subcopy {
+  font-size: 17px;
+  line-height: 1.52947;
+  font-weight: 400;
+  letter-spacing: -0.021em;
+  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  padding-top: 13px; }
+
+#services-info {
+  position: relative;
+  min-height: 400px;
+  background: url("../images/services-info.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  color: black; }

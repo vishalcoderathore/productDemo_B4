@@ -120,3 +120,12 @@ footer#main-footer {
   text-align: center;
   background-position: center;
   color: black; }
+
+#faq .card {
+  border: #444; }
+  #faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+  background: #333; }

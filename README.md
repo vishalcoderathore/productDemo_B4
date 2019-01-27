@@ -1,6 +1,6 @@
 ## Phone Marketing Site
 
-#### Demo : http://apple-product.s3-website-us-east-1.amazonaws.com/index.html
+#### Demo : https://product.vishalrathore.info/
 
 ###### Site showcasing a product.
 

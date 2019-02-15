@@ -1,6 +1,6 @@
 ## Phone Marketing Site
 
-#### Demo : https://product.vishalrathore.info/
+#### Demo : http://product.vishalrathore.info/
 
 ###### Site showcasing a product.
 
